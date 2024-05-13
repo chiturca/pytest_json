@@ -1,0 +1,19 @@
+{
+  "login_cases": [
+    {
+      "username": "",
+      "password": "",
+      "expected_error": "Epic sadface: Username is required"
+    },
+    {
+      "username": "standard_user",
+      "password": "",
+      "expected_error": "Epic sadface: Password is required"
+    },
+    {
+      "username": "locked_out_user",
+      "password": "secret_sauce",
+      "expected_error": "Epic sadface: Sorry, this user has been locked out."
+    }
+  ]
+}
